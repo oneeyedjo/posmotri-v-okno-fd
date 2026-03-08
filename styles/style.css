@@ -69,21 +69,9 @@ ol {
   gap: 40px;
 }
 
-.content__list-container {
-  width: 399px;
-  height: 298px;
-  overflow-y: auto;
-}
-
 .content__details {
   width: 100%;
   height: 100%;
-}
-
-.result__video-container {
-  width: 711px;
-  height: 386px;
-  margin-bottom: 16px;
 }
 
 .result__video {
@@ -142,11 +130,6 @@ ol {
 
 .content__accent {
   color: rgba(128, 128, 128, 0.5);
-}
-
-.content__card-link {
-  color: white;
-  text-decoration: none;
 }
 
 .content__video-card-title {
@@ -318,6 +301,8 @@ ol {
 
 .content__card-link {
   display: block;
+  color: white;
+  text-decoration: none;
 }
 
 .content__card-link_current {
@@ -346,8 +331,14 @@ ol {
 
 .result__video-container {
   position: relative;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .content__list-container {
   position: relative;
+  width: 399px;
+  height: 298px;
+  overflow-y: auto;
 }
