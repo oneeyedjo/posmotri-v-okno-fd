@@ -12,7 +12,7 @@ html {
   display: flex;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans Condensed", "Oswald", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -112,15 +112,15 @@ ol {
 /* стили текстов*/
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   font-style: normal;
 }
 
 .title {
   margin-bottom: 26px;
-  font-family: "Oswald";
+  font-family: "Oswald", "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: bold;
@@ -135,7 +135,7 @@ ol {
 .content__video-card-title {
   display: -webkit-box;
   overflow: hidden;
-  font-family: "Oswald";
+  font-family: "Oswald", "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 30px;
   font-style: bold;
@@ -150,7 +150,7 @@ ol {
   display: -webkit-box;
   margin-top: 6px;
   overflow: hidden;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -193,14 +193,14 @@ ol {
 
 .search-form__textfield {
   width: 225px;
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-right: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid currentColor;
   border-left: none;
   color: #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 100%;
   background-color: transparent;
   appearance: none;
@@ -208,9 +208,9 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 100%;
 }
 
@@ -219,7 +219,6 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  /*тут запутался, фокус работает мышью и tab*/
   outline: 2px solid #fff;
   outline-offset: 1px;
 }
@@ -261,9 +260,9 @@ ol {
   margin-top: 20px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   font-style: bold;
   background-color: transparent;
   cursor: pointer;
@@ -281,7 +280,7 @@ ol {
 }
 
 .button:active {
-  background-color: rgb(128 128 128);
+  background-color: #545050;
 }
 
 .button:hover {
@@ -306,11 +305,11 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: rgb(128 128 128);
+  background-color: #545050;
 }
 
 .content__card-link:active {
-  background-color: rgb(128 128 128);
+  background-color: #545050;
 }
 
 .content__card-link:hover {
